@@ -1,0 +1,67 @@
+<style>
+  body{
+    margin:0;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  a:hover {
+    color:#8AE634;
+  }
+  h1 {
+    font-size:45px;
+    text-align:center;
+    border-bottom:2px solid gray;
+    margin:0;
+    padding:30px;
+  }
+  ol{
+    border-right:2px solid gray;
+    width:160px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 260px 1fr;
+  }
+  #grid ol{
+    padding:40px;
+    padding-right:30px;
+  }
+  #article{
+    padding-top:20px;
+    padding-right:20px;
+    padding-left:20px;
+  }
+  #medal ol{
+    border:none;
+    margin:0;
+    width:250px;
+    padding-top:15px;
+  }
+  .birth{
+    text-align: center;
+  }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  .green {
+    color:green;
+  }
+  @media(max-width:800px){
+   #grid{
+     display: block;
+   }
+   ol{
+     border-right:none;
+   }
+   h1 {
+     border-bottom:none;
+   }
+ }
+</style>
